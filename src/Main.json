@@ -47,7 +47,7 @@
                 "block": {
                   "type": "java_obj_method_call_noreturn",
                   "id": "+UEPVDb9|$#MDG^]4l^{",
-                  "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"2\" method=\"generiereFeld\" name0=\"int zeilen\" name1=\"int spalten\"></mutation>",
+                  "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"2\" method=\"generiereFeld\" name0=\"int anzahlZeilen\" name1=\"int anzahlSpalten\"></mutation>",
                   "fields": {
                     "METHOD": "generiereFeld"
                   },
@@ -165,7 +165,7 @@
                             "block": {
                               "type": "java_obj_method_call_noreturn",
                               "id": "L3XKy+]h*m~rc(eOhzmI",
-                              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"2\" method=\"generiereFeld\" name0=\"int zeilen\" name1=\"int spalten\"></mutation>",
+                              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"2\" method=\"generiereFeld\" name0=\"int anzahlZeilen\" name1=\"int anzahlSpalten\"></mutation>",
                               "fields": {
                                 "METHOD": "generiereFeld"
                               },

@@ -851,6 +851,18 @@
             }
           }
         }
+      },
+      {
+        "type": "java_extends",
+        "id": ".v=]0L(d);7.f]`~OSQL",
+        "x": 89,
+        "y": -118,
+        "extraState": {
+          "parentClass": "FeldGenerator"
+        },
+        "fields": {
+          "PARENT_CLASS": "FeldGenerator"
+        }
       }
     ]
   },

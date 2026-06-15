@@ -6,16 +6,16 @@
 public class FeldGenerator {
     private int anzahlZeilen;
     private int anzahlSpalten;
-    private Rectangle[] feld;
+    private FilledShape[] feld;
 
 
     public void generiereFeld(int zeilen, int spalten) {
         anzahlZeilen = zeilen;
         anzahlSpalten = spalten;
-        feld = new Rectangle[zeilen * spalten];
+        feld = new FilledShape[zeilen * spalten];
         for (int k = 0; k < zeilen; k++) {
             for (int j = 0; j < spalten; j++) {
-                feld[k + j * anzahlSpalten] = new Rectangle(50 * j, 50 * k, 45, 45);
+                feld[j + k * anzahlSpalten] = new Rectangle(50 * j, 50 * k, 45, 45);
                 Text text = new Text(50 * j, 50 * k, 20, j+";"+k);
                 text.setFillColor("#66ff99");
             }

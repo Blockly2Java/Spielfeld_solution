@@ -26,8 +26,5 @@ public class Main {
 
 
 
-}
-
-
-// main()-Methode starten
-Main.main();
+} /*// main()-Methode starten
+Main.main();*/
